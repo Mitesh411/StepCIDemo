@@ -26,6 +26,6 @@ jobs:
 
       # Runs a Step CI Action
       - name: Step CI Action
-        uses: stepci/stepci@main
+        uses: stepci/stepci@2.6.8
         with:
           workflow: "tests/workflow.yml"
